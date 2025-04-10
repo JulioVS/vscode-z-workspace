@@ -1,5 +1,5 @@
 import { exec } from "child_process";
-import config from "./config.json" with { type: 'json' };;
+import config from "./config.json" with { type: 'json' };
 
 const zowe_command = "zowe jobs submit ds '";   // submit job in Z
 const zowe_flags = "' --wait-for-output --rfj"; // get output as JSON
@@ -13,7 +13,7 @@ exec(zowe_command + config.job + zowe_flags, (error, stdout, stderr) => {
     console.error(`Error: ${stderr}`);
     return;
   }
-  console.log(`Output: ${stdout}`);
+  console.log(`Output: ${stdout}\n`);
 
   // Parse the Mainframe Job Spool output
   var spool_data = JSON.parse(stdout).data;
@@ -22,7 +22,7 @@ exec(zowe_command + config.job + zowe_flags, (error, stdout, stderr) => {
 
   // Was the job successful?
   if (return_code <= config.maxRC) {
-    console.log("Job completed successfully.");
+    console.log(`Job completed successfully! (${spool_data.retcode})`);
   } else {
     console.log(`Job failed with return code: ${return_code}`);
   }
