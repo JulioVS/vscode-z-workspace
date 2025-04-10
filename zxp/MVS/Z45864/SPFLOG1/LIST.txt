@@ -1,0 +1,19 @@
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/22   Page: 1
+ 
+       15:28   Start of ISPF Log - - -  - Session # 1 -------------------------------------------------------
+       15:28   ***** Dialog Error ***** - Application(GWB); Function Unknown (IZUGDSPT); Service()
+       15:28      Table in use          - TBOPEN issued for table ISPPROF that is in use, ENQUEUE failed.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/30   Page: 1
+ 
+       09:03   Start of ISPF Log - - -  - Session # 1 -------------------------------------------------------
+       09:03   ***** Dialog Error ***** - Application(GWB); Function Unknown (IZUGDSPT); Service()
+       09:03      Table in use          - TBOPEN issued for table ISPPROF that is in use, ENQUEUE failed.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/01/01   Page: 1
+ 
+       14:08   Start of ISPF Log - - -  - Session # 1 -------------------------------------------------------
+       14:08   ***** Dialog Error ***** - Application(GWB); Function Unknown (IZUGDSPT); Service()
+       14:08      Table in use          - TBOPEN issued for table ISPPROF that is in use, ENQUEUE failed.
+1      HORA                *** LOG TRANSACCION ISPF ***                        IDUSUA: Z45864     DIA: 06/03/25   PAG.: 1
+ 
+       15:32   Start of ISPF Log - - -  - Session # 1 -------------------------------------------------------
+       15:32     Panel 'ISR@PRIM' error - Panel not found.

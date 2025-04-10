@@ -1,0 +1,1641 @@
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/28   Page: 1
+ 
+       13:24   Start of ISPF Log - - -  - Session # 1 -------------------------------------------------------
+       13:24      TSO     - Command  -  - %ISREDRTI ISPPROF
+       13:26      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKTSO2)'
+       13:27    End of ISPF Log - - - - - Session # 1 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/28   Page: 1
+ 
+       15:13   Start of ISPF Log - - -  - Session # 2 -------------------------------------------------------
+       15:46      Utility - Allocate    - Z45864.NEW.JCL allocated on volume ZXPL01
+       15:53      Utility - Rename      - Old name: 'Z45864.NEW.JCL'
+       15:53                            - New name: 'Z45864.JCL.NEW'
+       15:55      Utility - Move/Copy   - Z45864.INPUT -- 5 member(s) copied
+       15:55                            - to Z45864.JCL.NEW
+       15:59      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKTSO3)'
+       16:24      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKTSO4)'
+       16:31    End of ISPF Log - - - - - Session # 2 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/28   Page: 1
+ 
+       20:18   Start of ISPF Log - - -  - Session # 3 -------------------------------------------------------
+       20:19      Edit - SUBMIT         - //@DOCK1
+       20:26    End of ISPF Log - - - - - Session # 3 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/28   Page: 1
+ 
+       21:03   Start of ISPF Log - - -  - Session # 4 -------------------------------------------------------
+       21:04      Edit - SUBMIT         - //@AANS1
+       21:16    End of ISPF Log - - - - - Session # 4 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/29   Page: 1
+ 
+       09:15   Start of ISPF Log - - -  - Session # 5 -------------------------------------------------------
+       09:15      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       09:16      TSO     - Command  -  - %DSNEOC01
+       09:17      TSO     - Command  -  - %DSNEOC01
+       09:23      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       09:29      TSO     - Command  -  - %DSNEOC01
+       09:36      TSO     - Command  -  - %DSNEOC01
+       09:44      Utility - Allocate    - Z45864.SQL.INPUT allocated on volume ZXPL01
+       09:47      Edit - Save           - Z45864.SQL.INPUT(MYSQL) - member saved.
+       09:48      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       09:49      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:49      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       09:53      Utility - Allocate    - Z45864.SQL.OUTPUT allocated on volume ZXPL01
+       09:54      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       09:54      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:56      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       09:56      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:56      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:58      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:58      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:59      TSO     - Command  -  - %ISREDRTI ISPPROF
+       09:59      TSO     - Command  -  - %ISREDRTI ISPPROF
+       10:00    End of ISPF Log - - - - - Session # 5 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/29   Page: 1
+ 
+       12:17   Start of ISPF Log - - -  - Session # 6 -------------------------------------------------------
+       12:17      Utility - Delete      - 'Z45864.SQL.INPUT' deleted from volume ZXPL01
+       12:18      Utility - Delete      - 'Z45864.SQL.OUTPUT' deleted from volume ZXPL01
+       12:18      TSO     - Command  -  - %DSNEOC01
+       12:20      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       12:22      Utility - Delete      - 'Z45864.JCL.NEW' deleted from volume ZXPL01
+       12:24      Utility - Move/Copy   - Z45864.INPUT(AQUA) copied
+       12:24                            - to Z45864.SQLIN(AQUA)
+       12:24      Utility - Move/Copy   - Z45864.JCL3OUT copied
+       12:24                            - to Z45864.SQLOUT
+       12:26      Utility - Rename      - Z45864.SQLIN(AQUA) renamed (MYSQL).
+       12:27      Edit - Save           - Z45864.SQLIN(MYSQL) - member saved.
+       12:28      TSO     - Command  -  - %ISREDRTI ISPPROF
+       12:28      Edit - Save           - Z45864.SQLIN(MYSQL) - member saved.
+       12:30      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       12:42      TSO     - Command  -  - %DSNEOC01
+       12:42      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       12:46      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       12:47      TSO     - Command  -  - %ISREDRTI ISPPROF
+       12:47      TSO     - Command  -  - %ISREDRTI ISPPROF
+       12:52    End of ISPF Log - - - - - Session # 6 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/29   Page: 1
+ 
+       15:54   Start of ISPF Log - - -  - Session # 7 -------------------------------------------------------
+       16:24      Edit - Save           - Z45864.SOURCE(ANSIBLED) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/29   Page: 1
+ 
+       17:02   Start of ISPF Log - - -  - Session # 7 -------------------------------------------------------
+       17:12      TSO     - Command  -  - ishell
+       17:12      TSO     - Command  -  - ISHELL
+       17:15      TSO     - Command  -  - omvs
+       17:20      TSO     - Command  -  - OMVS
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/29   Page: 1
+ 
+       19:06   Start of ISPF Log - - -  - Session # 7 -------------------------------------------------------
+       19:06      TSO     - Command  -  - ISHELL
+       19:06      TSO     - Command  -  - ISHELL
+       19:26      Edit - SUBMIT         - //@AANS2
+       19:35      TSO     - Command  -  - ISHELL
+       19:35      TSO     - Command  -  - ISHELL
+       19:48      Edit - Save           - Z45864.JCL(WW) - member saved.
+       19:48      Utility - Delete      - Z45864.JCL(WW) deleted.
+       19:56      Utility - Delete      - Z45864.JCL(MYJCL) deleted.
+       19:57    End of ISPF Log - - - - - Session # 7 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/30   Page: 1
+ 
+       13:48   Start of ISPF Log - - -  - Session # 8 -------------------------------------------------------
+       13:50      TSO     - Command  -  - ISHELL
+       13:50      TSO     - Command  -  - ISHELL
+       13:54    End of ISPF Log - - - - - Session # 8 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/30   Page: 1
+ 
+       20:12   Start of ISPF Log - - -  - Session # 9 -------------------------------------------------------
+       20:13      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHALCOPY)'
+       20:27      TSO     - Command  -  - EX        'ZXP.PUBLIC.EXEC(WSL$)'
+       20:28      Edit - SUBMIT         - //WSLJCL
+       20:36      TSO     - Command  -  - %ISREIRTI ISPPROF
+       20:41      Edit - Save           - Z45864.JCL(WSLJCL) - member saved.
+       20:41      Edit - SUBMIT         - //WSLJCL
+       20:42      Edit - Save           - Z45864.JCL(WSLJCL) - member saved.
+       20:42      Edit - SUBMIT         - //WSLJCL
+       20:43   ***** Dialog Error ***** - Application(ISR); Function Panel (DB2@PRIM); Service()
+       20:43      Line from panel:      - ZSEL = PGM(ICEPMD01) PARM(S) NEWAPPL(ICE) NOCHECK
+       20:43      Invalid PGM name      - Link to 'ICEPMD01' failed, abend code = x'00000806'.
+       20:45      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKTSO5)'
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/31   Page: 1
+ 
+       10:22   Start of ISPF Log - - -  - Session # 9 -------------------------------------------------------
+       10:31      TSO     - Command  -  - LISTDSD DA('Z45864.**')
+       10:38      TSO     - Command  -  - ADDSD 'Z45864.SECRET' GENERIC UACC(READ)
+       10:39      TSO     - Command  -  - HELP ADDSD SYNTAX
+       10:41      TSO     - Command  -  - LD DA('Z45864.SECRET') ALL
+       10:42      TSO     - Command  -  - RETIREVE
+       10:42      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       10:44      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.OPEN')
+       10:45      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.CLOSE')
+       10:45      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.**')
+       10:45      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.OPEN')
+       10:46      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.CLOSE')
+       10:46      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.CLOSE') GENERIC
+       10:48      TSO     - Command  -  - ADDSD 'Z45864.SECRET' GENERIC UACC(UPDATE)
+       10:49      TSO     - Command  -  - ALTDSD 'Z45864.SECRET' GENERIC UACC(UPDATE)
+       10:49      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       10:49      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       10:58      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       10:58      TSO     - Command  -  - DELDSD DD('Z45864.SECRET')
+       11:00      TSO     - Command  -  - DELDSD 'Z45864.SECRET'
+       11:01      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       11:02      CLIST name is invalid - 'DD('Z45864.SECRET')' - name greater than 8 characters.
+       11:03      TSO     - Command  -  - DD 'Z45864.SECRET'
+       11:05      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       11:05      TSO     - Command  -  - LD DA('Z45864.SECRET')ALL
+       11:16      TSO     - Command  -  - DD 'Z45864.SECRET' GENERIC
+       11:16      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       11:19      TSO     - Command  -  - LD DA('Z45864.SECRET')ALL
+       11:22      Utility - Allocate    - Z45864.MAGIC allocated on volume ZXPL01
+       11:22      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       11:23      TSO     - Command  -  - ADDSD 'Z45864.SECRET' GENERIC UACC(UPDATE)
+       11:23      TSO     - Command  -  - DD 'Z45864.MAGIC' GENERIC
+       11:23      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       11:24      TSO     - Command  -  - ADDSD 'Z45864.MAGIC' GENERIC UACC(NONE)
+       11:24      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       11:28      TSO     - Command  -  - DD 'Z45864.magic'
+       11:28      TSO     - Command  -  - DD 'Z45864.magic'
+       11:28      TSO     - Command  -  - ADDSD 'Z45864.MAGIC' UACC(NONE)
+       11:28      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       11:30      TSO     - Command  -  - PERMIT 'Z45864.MAGIC' ACCESS(UPDATE) ID(IBM0001)
+       11:31      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       11:31      TSO     - Command  -  - LD DA('Z45864.MAGIC') ALL
+       11:34      TSO     - Command  -  - LD DA('Z45864.MAGIC') ALL
+       11:37      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       11:38      TSO     - Command  -  - SUB       'ZXP.PUBLIC.JCL(CHKRACF1)'
+       11:39    End of ISPF Log - - - - - Session # 9 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/31   Page: 1
+ 
+       15:52   Start of ISPF Log - - -  - Session # 10 -------------------------------------------------------
+       16:01      TSO     - Command  -  - %DSNEOC01
+       16:08      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       16:09      TSO     - Command  -  - %ISREDRTI ISPPROF
+       16:09      TSO     - Command  -  - %ISREDRTI ISPPROF
+       16:09      TSO     - Command  -  - %ISREDRTI ISPPROF
+       16:10      TSO     - Command  -  - %ISREDRTI ISPPROF
+       16:11      Edit - Save           - Z45864.JCL(SQL) - member saved.
+       16:11      Utility - Delete      - 'Z45864.SQLIN' deleted from volume ZXPL01
+       16:12      Utility - Delete      - 'Z45864.SQLOUT' deleted from volume ZXPL01
+       16:13      TSO     - Command  -  - LU Z45864
+       16:22      TSO     - Command  -  - LU Z45864
+       16:24      TSO     - Command  -  - TECHTEAM
+       16:25      TSO     - Command  -  - LU Z45864
+       16:28    End of ISPF Log - - - - - Session # 10 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/03/31   Page: 1
+ 
+       17:02   Start of ISPF Log - - -  - Session # 11 -------------------------------------------------------
+       17:02      TSO     - Command  -  - SUB       'ZXP.PUBLIC.JCL(CHKRACF2)'
+       17:06      TSO     - Command  -  - LU Z45864
+       17:08      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       17:08      TSO     - Command  -  - %ISREDRTI ISPPROF
+       17:10      TSO     - Command  -  - RACFQUIZ
+       17:12      TSO     - Command  -  - SUB       'ZXP.PUBLIC.JCL(CHKRACF2)'
+       17:18    End of ISPF Log - - - - - Session # 11 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/01   Page: 1
+ 
+       13:31   Start of ISPF Log - - -  - Session # 12 -------------------------------------------------------
+       13:34   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:34                            - ACTIVE
+       13:34                            - RETURN CODE(0008); REASON CODE(0113)
+       13:34                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:34                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:34                            - SERVICE(NONE); FEEDBACK(DOWN)
+       13:34   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:34                            - ACTIVE
+       13:34                            - RETURN CODE(0008); REASON CODE(3071)
+       13:34                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:34                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:34                            - SERVICE(DGTFCTCK); FEEDBACK(DOWN)
+       13:34   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:34                            - ACTIVE
+       13:34                            - RETURN CODE(0008); REASON CODE(0113)
+       13:34                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:34                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:34                            - SERVICE(NONE); FEEDBACK(DOWN)
+       13:34   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:34                            - ACTIVE
+       13:34                            - RETURN CODE(0008); REASON CODE(3071)
+       13:34                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:34                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:34                            - SERVICE(DGTFCTCK); FEEDBACK(DOWN DOWN)
+       13:35   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:35                            - ACTIVE
+       13:35                            - RETURN CODE(0008); REASON CODE(0113)
+       13:35                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:35                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:35                            - SERVICE(NONE); FEEDBACK(UP)
+       13:35   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:35                            - ACTIVE
+       13:35                            - RETURN CODE(0008); REASON CODE(3071)
+       13:35                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:35                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:35                            - SERVICE(DGTFCTCK); FEEDBACK(UP DOWN DOWN)
+       13:35   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:35                            - ACTIVE
+       13:35                            - RETURN CODE(0008); REASON CODE(0113)
+       13:35                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:35                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:35                            - SERVICE(NONE); FEEDBACK(UP)
+       13:35   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:35                            - ACTIVE
+       13:35                            - RETURN CODE(0008); REASON CODE(3071)
+       13:35                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:35                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:35                            - SERVICE(DGTFCTCK); FEEDBACK(UP UP DOWN DOWN)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(0113)
+       13:36                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:36                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(NONE); FEEDBACK(DOWN)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/01   Page: 2
+ 
+       13:36                            - RETURN CODE(0008); REASON CODE(3071)
+       13:36                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:36                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(DGTFCTCK); FEEDBACK(DOWN)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(0113)
+       13:36                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:36                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(NONE); FEEDBACK(UP)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(3071)
+       13:36                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:36                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(DGTFCTCK); FEEDBACK(UP DOWN)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(0113)
+       13:36                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:36                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(NONE); FEEDBACK(RIGHT)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(3071)
+       13:36                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:36                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(DGTFCTCK); FEEDBACK(RIGHT)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(0113)
+       13:36                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:36                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(NONE); FEEDBACK(RIGHT)
+       13:36   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:36                            - ACTIVE
+       13:36                            - RETURN CODE(0008); REASON CODE(3071)
+       13:36                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:36                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:36                            - SERVICE(DGTFCTCK); FEEDBACK(RIGHT RIGHT)
+       13:52    End of ISPF Log - - - - - Session # 12 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/01   Page: 1
+ 
+       15:11   Start of ISPF Log - - -  - Session # 13 -------------------------------------------------------
+       15:43      ISMF    - EDITPANL    - ; APPLICATION(DGT7 - ACS)
+       15:43                            - COMPLETED
+       15:45      ISMF    - EDITPANL    - ; APPLICATION(DGT7 - ACS)
+       15:45                            - COMPLETED
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/01   Page: 1
+ 
+       16:54   Start of ISPF Log - - -  - Session # 13 -------------------------------------------------------
+       16:59   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       16:59                            - ACTIVE
+       16:59                            - RETURN CODE(0008); REASON CODE(0113)
+       16:59                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       16:59                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       16:59                            - SERVICE(NONE); FEEDBACK(DOWN)
+       16:59   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       16:59                            - ACTIVE
+       16:59                            - RETURN CODE(0008); REASON CODE(3071)
+       16:59                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       16:59                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       16:59                            - SERVICE(DGTFCTCK); FEEDBACK(DOWN)
+       17:48      Utility - Allocate    - Z45864.NONSMS.PS allocated on volume ZXP002
+       17:54      Utility - Allocate    - Z45864.TOOBIG allocated on volume ZXPL01
+       18:02      Edit - Save           - Z45864.TOOBIG(MESSAGE) - member saved.
+       18:02      Edit - SUBMIT         - //@DFSMS1
+       18:04    End of ISPF Log - - - - - Session # 13 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/01   Page: 1
+ 
+       20:04   Start of ISPF Log - - -  - Session # 14 -------------------------------------------------------
+       20:18      Utility - Move/Copy   - 'ZXP.PUBLIC.JCL(GIMSAMPU)' Copied
+       20:18                            - to 'Z45864.JCL'
+       20:23      TSO     - Command  -  - %ISPF
+       20:34      TSO     - Command  -  - %ISPF
+       20:44      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       21:02      TSO     - Command  -  - SUB       'Z45864.JCL(GIMSAMPU)'
+       21:11      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       21:11      Edit - SUBMIT         - //GIMSAMPU
+       21:22      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKSMP1)'
+       21:34    End of ISPF Log - - - - - Session # 14 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/02   Page: 1
+ 
+       11:32   Start of ISPF Log - - -  - Session # 15 -------------------------------------------------------
+       12:38      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(SMPJCL)'
+       12:41      Edit - Save           - Z45864.JCL(SMPLIST) - member saved.
+       12:42      Edit - SUBMIT         - //SMPLIST
+       12:43      Edit - Save           - Z45864.JCL(SMPLIST) - member saved.
+       12:44      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKSMP2)'
+       12:46      Edit - Save           - Z45864.JCL(SMPLIST) - member saved.
+       12:46      Edit - SUBMIT         - //SMPLIST
+       12:47      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHKSMP2)'
+       13:09    End of ISPF Log - - - - - Session # 15 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/02   Page: 1
+ 
+       16:03   Start of ISPF Log - - -  - Session # 16 -------------------------------------------------------
+       16:03      TSO     - Command  -  - HELP LISTDS SLL
+       16:03      TSO     - Command  -  - HELP LISTDS ALL
+       16:04      TSO     - Command  -  - HELP LISTDS
+       16:09      TSO     - Command  -  - HELP LISTDS
+       16:09      TSO     - Command  -  - HELP LISTDS ALL
+       16:16      TSO     - Command  -  - PROFILE
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/04   Page: 1
+ 
+       10:37   Start of ISPF Log - - -  - Session # 16 -------------------------------------------------------
+       10:44      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       10:44      TSO     - Command  -  - %CSQOREXX
+       10:44      TSO     - Command  -  - %CSQORINI
+       10:46      TSO     - Command  -  - %CSQORLST 0
+       10:46      TSO     - Command  -  - %CSQORCMD L 1
+       10:48      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       10:48      TSO     - Command  -  - %CSQORCMD 1 1
+       10:48      TSO     - Command  -  - %CSQOROBJ
+       10:54      TSO     - Command  -  - %CSQORLST 0
+       10:54      TSO     - Command  -  - %CSQORCMD L 1
+       10:54      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       10:54      TSO     - Command  -  - %CSQORCMD 1 1
+       10:54      TSO     - Command  -  - %CSQOROBJ
+       10:56      TSO     - Command  -  - %CSQORLST 0
+       10:56      TSO     - Command  -  - %CSQORCMD L 1
+       10:56      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       10:56      TSO     - Command  -  - %CSQORCMD 1 1
+       10:56      TSO     - Command  -  - %CSQOROBJ
+       10:57      TSO     - Command  -  - %CSQORLST 0
+       10:57      TSO     - Command  -  - %CSQORCMD L 1
+       10:57      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       10:57      TSO     - Command  -  - %CSQORCMD 1 1
+       10:57      TSO     - Command  -  - %CSQOROBJ
+       10:57      TSO     - Command  -  - %CSQORLST 0
+       10:57      TSO     - Command  -  - %CSQORCMD L 1
+       10:57      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       10:57      TSO     - Command  -  - %CSQORCMD 1 1
+       10:57      TSO     - Command  -  - %CSQOROBJ
+       11:40    End of ISPF Log - - - - - Session # 16 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/04   Page: 1
+ 
+       13:10   Start of ISPF Log - - -  - Session # 17 -------------------------------------------------------
+       13:10      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       13:10      TSO     - Command  -  - %CSQOREXX
+       13:10      TSO     - Command  -  - %CSQORINI
+       13:11      TSO     - Command  -  - %CSQORLST 0
+       13:11      TSO     - Command  -  - %CSQORCMD L 1
+       13:11      TSO     - Command  -  - %CSQORLST 0
+       13:11      TSO     - Command  -  - %CSQORCMD L 1
+       13:15      TSO     - Command  -  - %CSQORLST 0
+       13:15      TSO     - Command  -  - %CSQORCMD L 1
+       13:15      TSO     - Command  -  - %CSQORLST 0
+       13:15      TSO     - Command  -  - %CSQORCMD L 1
+       13:16      TSO     - Command  -  - %CSQORLST 0
+       13:16      TSO     - Command  -  - %CSQORCMD L 1
+       13:16      TSO     - Command  -  - %CSQORLST 0
+       13:16      TSO     - Command  -  - %CSQORCMD L C
+       13:16      TSO     - Command  -  - %CSQORCMD L CX
+       13:16      TSO     - Command  -  - %CSQORATR 1 CV : CSQORLST
+       13:16      TSO     - Command  -  - %CSQORCMD 1 CV
+       13:16      TSO     - Command  -  - %CSQOROBJ
+       13:17      TSO     - Command  -  - %CSQORLST 0
+       13:17      TSO     - Command  -  - %CSQORCMD L C
+       13:17      TSO     - Command  -  - %CSQORCMD L CX
+       13:17      TSO     - Command  -  - %CSQORATR 1 CQ : CSQORLST
+       13:17      TSO     - Command  -  - %CSQORCMD 1 CQ
+       13:17      TSO     - Command  -  - %CSQOROBJ
+       13:27      TSO     - Command  -  - %CSQORLST 0
+       13:27      TSO     - Command  -  - %CSQORCMD L C
+       13:27      TSO     - Command  -  - %CSQORCMD L CX
+       13:27      TSO     - Command  -  - %CSQORATR 1 CV : CSQORLST
+       13:27      TSO     - Command  -  - %CSQORCMD 1 CV
+       13:27      TSO     - Command  -  - %CSQOROBJ
+       13:28      TSO     - Command  -  - %CSQORLST 0
+       13:28      TSO     - Command  -  - %CSQORCMD L C
+       13:28      TSO     - Command  -  - %CSQORCMD L CX
+       13:28      TSO     - Command  -  - %CSQORATR 1 CQ : CSQORLST
+       13:28      TSO     - Command  -  - %CSQORCMD 1 CQ
+       13:28      TSO     - Command  -  - %CSQOROBJ
+       13:28      TSO     - Command  -  - %CSQORLST 0
+       13:28      TSO     - Command  -  - %CSQORCMD L C
+       13:28      TSO     - Command  -  - %CSQORCMD L CX
+       13:42      TSO     - Command  -  - %CSQORLST 0
+       13:42      TSO     - Command  -  - %CSQORCMD L 1
+       13:43      TSO     - Command  -  - %CSQORLST 0
+       13:43      TSO     - Command  -  - %CSQORCMD L 1
+       13:43      TSO     - Command  -  - %CSQORLST 0
+       13:43      TSO     - Command  -  - %CSQORCMD L 1
+       13:43      TSO     - Command  -  - %CSQORLST 2 0
+       13:43      TSO     - Command  -  - %CSQORCMD L 1A
+       13:43      TSO     - Command  -  - %CSQORLST 2 0
+       13:43      TSO     - Command  -  - %CSQORCMD L OA
+       13:44      TSO     - Command  -  - %CSQORLST 0
+       13:44      TSO     - Command  -  - %CSQORCMD L 1
+       13:44      TSO     - Command  -  - %CSQORLST 0
+       13:44      TSO     - Command  -  - %CSQORCMD L C
+       13:44      TSO     - Command  -  - %CSQORLST 0
+       13:44      TSO     - Command  -  - %CSQORCMD L C
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/04   Page: 2
+ 
+       13:44      TSO     - Command  -  - %CSQORCMD L CX
+       13:44      TSO     - Command  -  - %CSQORLST 0
+       13:44      TSO     - Command  -  - %CSQORCMD L 2
+       13:45      TSO     - Command  -  - %CSQORLST 0
+       13:45      TSO     - Command  -  - %CSQORCMD L 2
+       13:45      TSO     - Command  -  - %CSQORLST 0
+       13:45      TSO     - Command  -  - %CSQORCMD L 2
+       13:45      TSO     - Command  -  - %CSQORLST 0
+       13:45      TSO     - Command  -  - %CSQORCMD L 2
+       13:45      TSO     - Command  -  - %CSQORLST 0
+       13:45      TSO     - Command  -  - %CSQORCMD L 2
+       13:45      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       13:45      TSO     - Command  -  - %CSQORCMD 1 2
+       13:45      TSO     - Command  -  - %CSQOROBJ
+       13:46      TSO     - Command  -  - %CSQORLST 0
+       13:46      TSO     - Command  -  - %CSQORCMD L 2
+       13:46      TSO     - Command  -  - %CSQORATR 2 2 : CSQORLST
+       13:46      TSO     - Command  -  - %CSQORCMD 1 2
+       13:46      TSO     - Command  -  - %CSQOROBJ
+       13:47      TSO     - Command  -  - %CSQORCMD 2 2
+       13:47      TSO     - Command  -  - %CSQORATR 1 2
+       13:47      TSO     - Command  -  - %CSQORCMD 1 2
+       13:47      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       13:47      TSO     - Command  -  - %CSQOREXX
+       13:47      TSO     - Command  -  - %CSQORINI
+       13:47      TSO     - Command  -  - %CSQORLST 0
+       13:47      TSO     - Command  -  - %CSQORCMD L 2
+       13:48      TSO     - Command  -  - %CSQORLST 0
+       13:48      TSO     - Command  -  - %CSQORCMD L 2
+       13:48      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       13:48      TSO     - Command  -  - %CSQORCMD 1 2
+       13:48      TSO     - Command  -  - %CSQOROBJ
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/04   Page: 1
+ 
+       17:04   Start of ISPF Log - - -  - Session # 17 -------------------------------------------------------
+       17:04      TSO     - Command  -  - OMVS
+       17:05      TSO     - Command  -  - ISHELL
+       17:05      TSO     - Command  -  - ISHELL
+       17:07    End of ISPF Log - - - - - Session # 17 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/04/04   Page: 1
+ 
+       17:53   Start of ISPF Log - - -  - Session # 18 -------------------------------------------------------
+       18:14      TSO     - Command  -  - SYSILB
+       18:14      TSO     - Command  -  - SYSLIB
+       18:18      TSO     - Command  -  - SYSLIB
+       18:22      TSO     - Command  -  - SYSLIB
+       18:40    End of ISPF Log - - - - - Session # 18 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/13   Page: 1
+ 
+       07:55   Start of ISPF Log - - -  - Session # 19 -------------------------------------------------------
+       07:57      Utility - Allocate    - Z45864.COV19.CSV allocated on volume ZXPM03
+       08:08      Utility - Delete      - 'Z45864.COV19.CSV' deleted from volume ZXPM03
+       08:19      Utility - Move/Copy   - Z45864.DATA copied
+       08:19                            - to Z45864.CHLLNGE.CSV
+       08:20      Utility - Rename      - Old name: 'Z45864.CHLLNGE.CSV'
+       08:20                            - New name: 'Z45864.COVID.CSV'
+       08:20      Edit - Save           - Z45864.COVID.CSV - data set saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/24   Page: 1
+ 
+       07:11   Start of ISPF Log - - -  - Session # 19 -------------------------------------------------------
+       07:19      TSO     - Command  -  - LOGOFF
+       07:19      Command rejected      - Command rejected - 'LOGOFF  ' command not supported under ISPF.
+       07:19      Invalid command       - Commands such as LOGON, LOGOFF, SPF, ISPF, etc. are not permitted.
+       07:19    End of ISPF Log - - - - - Session # 19 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/24   Page: 1
+ 
+       08:57   Start of ISPF Log - - -  - Session # 20 -------------------------------------------------------
+       09:35      Utility - Allocate    - Z45864.NEW.JCL allocated on volume ZXPM07
+       10:07      Utility - Rename      - Old name: 'Z45864.NEW.JCL'
+       10:07                            - New name: 'Z45864.JCL.NEW'
+       10:08      Utility - Move/Copy   - Z45864.INPUT -- 5 member(s) copied
+       10:08                            - to Z45864.JCL.NEW
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/24   Page: 1
+ 
+       11:02   Start of ISPF Log - - -  - Session # 20 -------------------------------------------------------
+       11:04      Utility - Delete      - 'Z45864.SEQDS' deleted from volume ZXPM04
+       11:04      Utility - Delete      - 'Z45864.KEYS' deleted from volume ZXPM08
+       11:04      Utility - Delete      - 'Z45864.SURPRISE' deleted from volume ZXPM08
+       11:28      Utility - Delete      - 'Z45864.JCL.NEW' deleted from volume ZXPM07
+       11:32      TSO     - Command  -  - SUBMIT 'Z45864.JCL(HELLO)'
+       11:40      TSO     - Command  -  - SUBMIT 'ZXP.PUBLIC.JCL(CHALCOPY)'
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/24   Page: 1
+ 
+       12:20   Start of ISPF Log - - -  - Session # 20 -------------------------------------------------------
+       12:30      TSO     - Command  -  - EX        'ZXP.PUBLIC.EXEC(WSL$)'
+       12:33      Edit - SUBMIT         - //WSLJCL
+       12:34      Edit - Save           - Z45864.JCL(WSLJCL) - member saved.
+       12:34      Edit - SUBMIT         - //WSLJCL
+       12:35      Edit - Save           - Z45864.JCL(WSLJCL) - member saved.
+       12:35      Edit - SUBMIT         - //WSLJCL
+       12:49      TSO     - Command  -  - %ISREIRTI ISPPROF
+       12:51      TSO     - Command  -  - %ISREIRTI ISPPROF
+       12:51      TSO     - Command  -  - %ISREIRTI ISPPROF
+       13:07    End of ISPF Log - - - - - Session # 20 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/24   Page: 1
+ 
+       19:26   Start of ISPF Log - - -  - Session # 21 -------------------------------------------------------
+       19:44      Utility - Rename      - Z45864.SOURCE(ANSIBLED) renamed (ANSIBCKP).
+       19:53      Utility - Move/Copy   - ZXP.PUBLIC.INPUT(ANSIBLED) copied
+       19:53                            - to Z45864.SOURCE(ANSIBLED)
+       20:08      Utility - Delete      - Z45864.SOURCE(ANSIBLED) deleted.
+       20:09      Utility - Rename      - Z45864.SOURCE(ANSIBCKP) renamed (ANSIBLED).
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/25   Page: 1
+ 
+       08:00   Start of ISPF Log - - -  - Session # 21 -------------------------------------------------------
+       08:01      Utility - Rename      - Z45864.SOURCE(ANSIBLED) renamed (XXX).
+       08:04      TSO     - Command  -  - A         'Z45864.SOURCE(ASMPGM)'
+       08:04      TSO     - Command  -  - A         'Z45864.SOURCE(ASMPGM)'
+       08:05      Utility - Move/Copy   - Z45864.SOURCE(ASMPGM) copied
+       08:05                            - to Z45864.SOURCE(ANSIBLED)
+       08:05      Utility - Move/Copy   - Z45864.SOURCE(ASMPGM) copied
+       08:05                            - to Z45864.SOURCE(ANSIBLED)
+       08:06      Edit - Save           - Z45864.SOURCE(ANSIBLED) - member saved.
+       08:07      Edit - Save           - Z45864.SOURCE(ANSIBLED) - member saved.
+       08:42      Edit - Save           - Z45864.SOURCE(ANSIBLED) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/27   Page: 1
+ 
+       06:54   Start of ISPF Log - - -  - Session # 21 -------------------------------------------------------
+       07:24      TSO     - Command  -  - LISTDSD DA('Z45864.**')
+       07:25      TSO     - Command  -  - LD DA('Z45864.**')
+       07:25      TSO     - Command  -  - LD DA('Z45864.**')
+       07:56      TSO     - Command  -  - ADDSD 'Z45864.SECRET' GENERIC UACC(READ)
+       07:57      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       07:58      TSO     - Command  -  - DD 'Z45864.SECRET' GENERIC
+       07:58      TSO     - Command  -  - ADDSD 'Z45864.SECRET' GENERIC UACC(READ)
+       08:21      TSO     - Command  -  - LD DA('Z45864.SECRET') ALL
+       08:22      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       08:33      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.**')
+       08:33      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.OPEN')
+       08:34      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.CLOSED')
+       08:34      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.CLOSED')
+       08:35      TSO     - Command  -  - LD DA('ZXP.PUBLIC.RACF.CLOSED') GENERIC
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/27   Page: 1
+ 
+       09:03   Start of ISPF Log - - -  - Session # 21 -------------------------------------------------------
+       09:04      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       09:04      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       09:04      TSO     - Command  -  - ALTDSD 'Z45864.SECRET' GENERIC UACC(UPDATE)
+       09:04      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       09:05      TSO     - Command  -  - DELDSD 'Z45864.SECRET' GENERIC
+       09:05      TSO     - Command  -  - LD DA('Z45864.SECRET')
+       09:06      Invalid command       - Command name '+3.4' contains invalid syntax.
+       09:16      Utility - Allocate    - Z45864.MAGIC allocated on volume ZXPM03
+       09:21      TSO     - Command  -  - ADDSD 'Z45864.MAGIC' UACC(NONE)
+       09:21      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       09:23      TSO     - Command  -  - PERMIT 'Z45864.MAGIC' ACCESS(UPDATE) ID(IBM0001)
+       09:23      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       09:23      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       09:24      TSO     - Command  -  - PERMIT 'Z45864.MAGIC' ACCESS(UPDATE) ID(IBM0001)
+       09:24      TSO     - Command  -  - LD DA('Z45864.MAGIC')
+       09:24      TSO     - Command  -  - LD DA('Z45864.MAGIC') ALL
+       09:26      TSO     - Command  -  - LD DA('Z45864.MAGIC') ALL
+       09:27      TSO     - Command  -  - SUB 'Z45864.JCL(HELLO)'
+       09:49      TSO     - Command  -  - %DSNEOC01
+       09:52      TSO     - Command  -  - LU Z45864
+       09:59      TSO     - Command  -  - EXEC 'SVTSC.CLIST(EQASTART)'
+       09:59      TSO     - Command  -  - %EQAXPRIM #DTHLQ(Z45864.Sample) #DTMEMBER(COB01)  PUMEMBER(EQAZDFLT)
+       09:59                              NATLANG(ENU)
+       09:59      TSO     - Command  -  - %DSNEOC01
+       10:00      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       10:00      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       10:03      TSO     - Command  -  - %DSNEOC01
+       10:03      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       10:05      TSO     - Command  -  - %DSNEOC01
+       10:06      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       10:06      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       10:17      TSO     - Command  -  - %DSNEOC01
+       10:17      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       10:17      TSO     - Command  -  - %ISREDRTI ISPPROF
+       10:19      TSO     - Command  -  - TECHTEAM
+       10:21      TSO     - Command  -  - LU Z45864
+       10:39    End of ISPF Log - - - - - Session # 21 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/27   Page: 1
+ 
+       16:29   Start of ISPF Log - - -  - Session # 22 -------------------------------------------------------
+       16:30      Edit - Save           - SYS24362.T163029.RA000.Z45864.R0124676 -  saved.
+       16:30      VSAM Utility - Delete - An IDCAMS delete command has completed with an RC=0.
+       17:27    End of ISPF Log - - - - - Session # 22 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/28   Page: 1
+ 
+       12:56   Start of ISPF Log - - -  - Session # 23 -------------------------------------------------------
+       13:29   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:29                            - ACTIVE
+       13:29                            - RETURN CODE(0008); REASON CODE(0113)
+       13:29                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:29                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:29                            - SERVICE(NONE); FEEDBACK(DOWN)
+       13:29   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:29                            - ACTIVE
+       13:29                            - RETURN CODE(0008); REASON CODE(3071)
+       13:29                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:29                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:29                            - SERVICE(DGTFCTCK); FEEDBACK(DOWN)
+       13:37   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:37                            - ACTIVE
+       13:37                            - RETURN CODE(0008); REASON CODE(0113)
+       13:37                            - MODULE(DGTFCTCK); PROCEDURE(DGTFCTCK)
+       13:37                            - MESSAGE ID(DGTCT006 - DGTCT006); LAST PANEL(DGTIFFL5)
+       13:37                            - SERVICE(NONE); FEEDBACK(DOWN)
+       13:37   *****  ISMF ERROR  ***** - APPLICATION(DGT7 - ACS); FUNCTION(ACSDISPL)
+       13:37                            - ACTIVE
+       13:37                            - RETURN CODE(0008); REASON CODE(3071)
+       13:37                            - MODULE(DGTFPS01); PROCEDURE(CHECKCMD)
+       13:37                            - MESSAGE ID( - ); LAST PANEL(DGTIFFL5)
+       13:37                            - SERVICE(DGTFCTCK); FEEDBACK(DOWN)
+       14:24    End of ISPF Log - - - - - Session # 23 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/29   Page: 1
+ 
+       08:08   Start of ISPF Log - - -  - Session # 24 -------------------------------------------------------
+       08:13      Utility - Delete      - Z45864.JCL(GIMSAMPU) deleted.
+       08:14      Utility - Move/Copy   - ZXP.PUBLIC.JCL(GIMSAMPU) copied
+       08:14                            - to Z45864.JCL(GIMSAMPU)
+       08:21      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:24      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:26      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:27      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:32      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:33      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:35      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:35      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:36      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:37      TSO     - Command  -  - %CYL
+       08:37      Edit - Save           - Z45864.JCL(GIMSAMPU) - member saved.
+       08:41      Edit - SUBMIT         - //GIMSAMPU
+       08:48      Edit - Save           - SYS24364.T084802.RA000.Z45864.R0134962 -  saved.
+       08:50    End of ISPF Log - - - - - Session # 24 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/30   Page: 1
+ 
+       08:28   Start of ISPF Log - - -  - Session # 25 -------------------------------------------------------
+       08:29      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       08:29      TSO     - Command  -  - %CSQOREXX
+       08:29      TSO     - Command  -  - %CSQORINI
+       08:30      TSO     - Command  -  - %CSQORLST 0
+       08:30      TSO     - Command  -  - %CSQORCMD L 1
+       08:30      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       08:30      TSO     - Command  -  - %CSQOREXX
+       08:30      TSO     - Command  -  - %CSQORINI
+       08:31      TSO     - Command  -  - %CSQORLST 0
+       08:31      TSO     - Command  -  - %CSQORCMD L 1
+       08:32      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       08:32      TSO     - Command  -  - %CSQORCMD 1 1
+       08:32      TSO     - Command  -  - %CSQOROBJ
+       08:36      TSO     - Command  -  - %CSQORLST 0
+       08:36      TSO     - Command  -  - %CSQORCMD L 1
+       08:36      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       08:36      TSO     - Command  -  - %CSQORCMD 1 1
+       08:36      TSO     - Command  -  - %CSQOROBJ
+       08:36      TSO     - Command  -  - %CSQORLST 0
+       08:36      TSO     - Command  -  - %CSQORCMD L 1
+       08:36      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       08:36      TSO     - Command  -  - %CSQORCMD 1 1
+       08:36      TSO     - Command  -  - %CSQOROBJ
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/30   Page: 1
+ 
+       10:45   Start of ISPF Log - - -  - Session # 25 -------------------------------------------------------
+       10:46      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       10:46      TSO     - Command  -  - %CSQOREXX
+       10:46      TSO     - Command  -  - %CSQORINI
+       10:46      TSO     - Command  -  - %CSQORLST 0
+       10:46      TSO     - Command  -  - %CSQORCMD L 1
+       10:47      TSO     - Command  -  - %CSQORLST 0
+       10:47      TSO     - Command  -  - %CSQORCMD L 1
+       10:47      TSO     - Command  -  - %CSQORLST 0
+       10:47      TSO     - Command  -  - %CSQORCMD L 2
+       10:48      TSO     - Command  -  - %CSQORLST 0
+       10:48      TSO     - Command  -  - %CSQORCMD L 1
+       10:48      TSO     - Command  -  - %CSQORLST 0
+       10:48      TSO     - Command  -  - %CSQORSEL  / PRIVATE CSQ9
+       10:49      TSO     - Command  -  - %CSQORLST 0
+       10:49      TSO     - Command  -  - %CSQORCMD L 1
+       10:49      TSO     - Command  -  - %CSQORLST 0
+       10:49      TSO     - Command  -  - %CSQORCMD L 1
+       10:50      TSO     - Command  -  - %CSQORLST 0
+       10:50      TSO     - Command  -  - %CSQORCMD L 1
+       10:50      TSO     - Command  -  - %CSQORLST 0
+       10:50      TSO     - Command  -  - %CSQORCMD L 2
+       10:50      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       10:50      TSO     - Command  -  - %CSQORCMD 1 2
+       10:50      TSO     - Command  -  - %CSQOROBJ
+       10:50      TSO     - Command  -  - %CSQORATR 1 2
+       10:50      TSO     - Command  -  - %CSQORCMD 1 2
+       10:50      TSO     - Command  -  - %CSQORLST 0
+       10:50      TSO     - Command  -  - %CSQORCMD L 2
+       10:51      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       10:51      TSO     - Command  -  - %CSQORCMD 1 2
+       10:51      TSO     - Command  -  - %CSQOROBJ
+       10:51      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       10:51      TSO     - Command  -  - %CSQOREXX
+       10:51      TSO     - Command  -  - %CSQORINI
+       10:51      TSO     - Command  -  - %CSQORLST 0
+       10:51      TSO     - Command  -  - %CSQORCMD L 2
+       10:52      TSO     - Command  -  - %CSQORATR 4 2 : CSQORLST
+       10:52      TSO     - Command  -  - %CSQORCMD 1 2
+       10:52      TSO     - Command  -  - %CSQORCTL
+       10:52      TSO     - Command  -  - %CSQORLST 0
+       10:52      TSO     - Command  -  - %CSQORCMD L 2
+       10:52      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       10:52      TSO     - Command  -  - %CSQORCMD 1 2
+       10:52      TSO     - Command  -  - %CSQOROBJ
+       10:52      TSO     - Command  -  - %CSQORLST 0
+       10:52      TSO     - Command  -  - %CSQORCMD L 2
+       10:55      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       10:55      TSO     - Command  -  - %CSQORCMD 1 2
+       10:55      TSO     - Command  -  - %CSQOROBJ
+       10:56      TSO     - Command  -  - %CSQORLST 5 QMGR    CSQ9
+       10:56      TSO     - Command  -  - %CSQORCMD L 3
+       10:56      TSO     - Command  -  - %CSQORLST 0
+       10:56      TSO     - Command  -  - %CSQORCMD L 2
+       10:56      TSO     - Command  -  - %CSQORLST 4 4
+       10:56      TSO     - Command  -  - %CSQORCMD L 2
+       10:56      TSO     - Command  -  - %CSQORPOP CSQORLST CSQOMSG
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/30   Page: 2
+ 
+       10:59      TSO     - Command  -  - %CSQORLST 0
+       10:59      TSO     - Command  -  - %CSQORCMD L 2
+       10:59      TSO     - Command  -  - %CSQORATR 1 2 : CSQORLST
+       10:59      TSO     - Command  -  - %CSQORCMD 1 2
+       10:59      TSO     - Command  -  - %CSQOROBJ
+       11:01      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       11:01      TSO     - Command  -  - %CSQOREXX
+       11:01      TSO     - Command  -  - %CSQORINI
+       11:01      TSO     - Command  -  - %CSQORLST 0
+       11:01      TSO     - Command  -  - %CSQORCMD L 2
+       11:02      TSO     - Command  -  - %CSQORLST 0
+       11:02      TSO     - Command  -  - %CSQORCMD L C
+       11:02      TSO     - Command  -  - %CSQORLST 0
+       11:02      TSO     - Command  -  - %CSQORCMD L C
+       11:02      TSO     - Command  -  - %CSQORCMD L CX
+       11:04      TSO     - Command  -  - %CSQORATR 1 CV : CSQORLST
+       11:04      TSO     - Command  -  - %CSQORCMD 1 CV
+       11:04      TSO     - Command  -  - %CSQOROBJ
+       11:05      TSO     - Command  -  - %CSQORLST 0
+       11:05      TSO     - Command  -  - %CSQORCMD L C
+       11:05      TSO     - Command  -  - %CSQORCMD L CX
+       11:14      TSO     - Command  -  - %CSQORLST 0
+       11:14      TSO     - Command  -  - %CSQORCMD L C
+       11:14      TSO     - Command  -  - %CSQORCMD L CX
+       11:17      TSO     - Command  -  - %CSQORLST 0
+       11:17      TSO     - Command  -  - %CSQORCMD L C
+       11:17      TSO     - Command  -  - %CSQORCMD L CX
+       11:17      TSO     - Command  -  - %CSQORATR 1 CV : CSQORLST
+       11:17      TSO     - Command  -  - %CSQORCMD 1 CV
+       11:17      TSO     - Command  -  - %CSQOROBJ
+       11:18      TSO     - Command  -  - %CSQORLST 0
+       11:18      TSO     - Command  -  - %CSQORCMD L 1
+       11:18      TSO     - Command  -  - %CSQORLST 0
+       11:18      TSO     - Command  -  - %CSQORCMD L 1
+       11:18      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       11:18      TSO     - Command  -  - %CSQORCMD 1 1
+       11:18      TSO     - Command  -  - %CSQOROBJ
+       11:18      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:19      TSO     - Command  -  - %CSQORLST 0
+       11:19      TSO     - Command  -  - %CSQORCMD L 1
+       11:19      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       11:19      TSO     - Command  -  - %CSQORCMD 1 1
+       11:19      TSO     - Command  -  - %CSQOROBJ
+       11:19      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:22      TSO     - Command  -  - %CSQORATR 1 1
+       11:22      TSO     - Command  -  - %CSQORCMD 1 1
+       11:22      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:22      TSO     - Command  -  - %CSQORLST 0
+       11:22      TSO     - Command  -  - %CSQORCMD L 1
+       11:22      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       11:22      TSO     - Command  -  - %CSQORCMD 1 1
+       11:22      TSO     - Command  -  - %CSQOROBJ
+       11:22      TSO     - Command  -  - %CSQORATR 1 1
+       11:22      TSO     - Command  -  - %CSQORCMD 1 1
+       11:22      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:23      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       11:23      TSO     - Command  -  - %CSQOREXX
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 24/12/30   Page: 3
+ 
+       11:23      TSO     - Command  -  - %CSQORINI
+       11:23      TSO     - Command  -  - %CSQORLST 0
+       11:23      TSO     - Command  -  - %CSQORCMD L 1
+       11:23      TSO     - Command  -  - %CSQORATR 1 1 : CSQORLST
+       11:23      TSO     - Command  -  - %CSQORCMD 1 1
+       11:23      TSO     - Command  -  - %CSQOROBJ
+       11:23      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:23      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:23      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:23      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:23      TSO     - Command  -  - %CSQORATR 1 1
+       11:23      TSO     - Command  -  - %CSQORCMD 1 1
+       11:23      TSO     - Command  -  - %CSQORATR 1 1
+       11:23      TSO     - Command  -  - %CSQORCMD 1 1
+       11:23      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:23      TSO     - Command  -  - %CSQORLST 2 0 CSQ9
+       11:23      TSO     - Command  -  - %CSQORCMD L OA
+       11:23      TSO     - Command  -  - %CSQORPOP CSQORLST CSQOMSG
+       11:23      TSO     - Command  -  - %CSQORLST 0
+       11:23      TSO     - Command  -  - %CSQORCMD L 1
+       11:29      TSO     - Command  -  - %CSQOREXX CSQ920 E
+       11:29      TSO     - Command  -  - %CSQOREXX
+       11:29      TSO     - Command  -  - %CSQORINI
+       11:29      TSO     - Command  -  - %CSQOUTIL
+       11:29      TSO     - Command  -  - %CSQOUEIN
+       11:30      TSO     - Command  -  - %CSQOUEIN
+       11:30      TSO     - Command  -  - %CSQORLST 0
+       11:30      TSO     - Command  -  - %CSQORCMD L 1
+       11:31      TSO     - Command  -  - %CSQORLST 0
+       11:31      TSO     - Command  -  - %CSQORCMD L 2
+       11:31      TSO     - Command  -  - %CSQORATR 2 2 : CSQORLST
+       11:31      TSO     - Command  -  - %CSQORCMD 1 2
+       11:31      TSO     - Command  -  - %CSQOROBJ
+       11:33      TSO     - Command  -  - %CSQORCMD 2 2
+       11:33      TSO     - Command  -  - %CSQORATR 1 2
+       11:33      TSO     - Command  -  - %CSQORCMD 1 2
+       11:34      TSO     - Command  -  - %CSQORCMD 2 2
+       11:34      TSO     - Command  -  - %CSQORPOP CSQOROBJ CSQOMSG
+       11:35      TSO     - Command  -  - %CSQORLST 0
+       11:35      TSO     - Command  -  - %CSQORCMD L 2
+       11:49    End of ISPF Log - - - - - Session # 25 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/01/03   Page: 1
+ 
+       08:06   Start of ISPF Log - - -  - Session # 26 -------------------------------------------------------
+       08:17      TSO     - Command  -  - DISPLAY
+       08:17      Invalid command       - Command name '/DISPLAY' contains invalid syntax.
+       08:18      TSO     - Command  -  - SYSLIB
+       08:28      TSO     - Command  -  - %REA
+       08:31    End of ISPF Log - - - - - Session # 26 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/01/03   Page: 1
+ 
+       12:11   Start of ISPF Log - - -  - Session # 27 -------------------------------------------------------
+       12:15      Edit - SUBMIT         - //CXDFHGCD
+       12:19      Edit - SUBMIT         - //CXSYSIN
+       12:25      Edit - SUBMIT         - //CXDFHCSD
+       12:32      Edit - SUBMIT         - //CXFILEA
+       12:39    End of ISPF Log - - - - - Session # 27 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/01/03   Page: 1
+ 
+       16:14   Start of ISPF Log - - -  - Session # 28 -------------------------------------------------------
+       16:17      Utility - Move/Copy   - ZXP.CICS.JCL(CXZ#####) copied
+       16:17                            - to Z45864.JCL(MYCICS)
+       16:25      TSO     - Command  -  - SUBMIT JCL(MYCICS)
+       16:55      TSO     - Command  -  - CREATE    'Z45864.CICS.SYSIN(DFH$SIP)'
+       16:56      Attention message     - Command terminated due to attention.
+       17:01      Edit - Save           - Z45864.CICS.SYSIN(CICS2CHK) - member saved.
+       17:05      Edit - Save           - Z45864.CICS.SYSIN(CICS2CHK) - member saved.
+       17:15    End of ISPF Log - - - - - Session # 28 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/02/06   Page: 1
+ 
+       09:50   Start of ISPF Log - - -  - Session # 29 -------------------------------------------------------
+       09:57      TSO     - Command  -  - ISHELL
+       09:57      TSO     - Command  -  - ISHELL
+       10:07    End of ISPF Log - - - - - Session # 29 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/05   Page: 1
+ 
+       19:16   Start of ISPF Log - - -  - Session # 30 -------------------------------------------------------
+       19:17      TSO     - Command  -  - SUBMIT JCL(MYCICS)
+       20:10    End of ISPF Log - - - - - Session # 30 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/06   Page: 1
+ 
+       08:24   Start of ISPF Log - - -  - Session # 31 -------------------------------------------------------
+       09:19      Edit - SUBMIT         - //@CICSZ
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/08   Page: 1
+ 
+       17:07   Start of ISPF Log - - -  - Session # 31 -------------------------------------------------------
+       17:08      TSO     - Command  -  - ISHELL
+       17:08      TSO     - Command  -  - ISHELL
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/22   Page: 1
+ 
+       13:15   Start of ISPF Log - - -  - Session # 32 -------------------------------------------------------
+       13:15      TSO     - Command  -  - %ERS
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/22   Page: 1
+ 
+       19:34   Start of ISPF Log - - -  - Session # 32 -------------------------------------------------------
+       20:15      TSO     - Command  -  - %ERS
+       20:28    End of ISPF Log - - - - - Session # 32 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/22   Page: 1
+ 
+       20:35   Start of ISPF Log - - -  - Session # 33 -------------------------------------------------------
+       20:42      Edit - Save           - Z45864.CBL(HELLOCIC) - member saved.
+       20:46      Edit - Save           - Z45864.CBL(HELLOCIC) - member saved.
+       20:46    End of ISPF Log - - - - - Session # 33 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/23   Page: 1
+ 
+       08:12   Start of ISPF Log - - -  - Session # 34 -------------------------------------------------------
+       08:33      Utility - Move/Copy   - ZXP.PUBLIC.JCL(DFHCOBCL) copied
+       08:33                            - to Z45864.JCL(HELLOCIC)
+       08:36      Edit - Save           - Z45864.JCL(HELLOCIC) - member saved.
+       08:38      Edit - Save           - Z45864.JCL(HELLOCIC) - member saved.
+       08:38      Edit - SUBMIT         - //HELLOCIC
+       08:48      Edit - SUBMIT         - //CICS4ZXP
+       09:07    End of ISPF Log - - - - - Session # 34 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/25   Page: 1
+ 
+       19:57   Start of ISPF Log - - -  - Session # 35 -------------------------------------------------------
+       20:02      Utility - Move/Copy   - Z45864.JCL(HELLOCIC) copied
+       20:02                            - to Z45864.JCL(CARREC)
+       20:02      Utility - Move/Copy   - Z45864.JCL(HELLOCIC) copied
+       20:02                            - to Z45864.JCL(CARREC)
+       20:04      Edit - Save           - Z45864.JCL(CARREC) - member saved.
+       20:04      Edit - SUBMIT         - //CARRECJ
+       20:29      Edit - Save           - Z45864.JCL(CARREC) - member saved.
+       20:30      Edit - Save           - Z45864.JCL(MYCICS) - member saved.
+       20:31      Edit - SUBMIT         - //CICS4ZXP
+       20:49      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       20:51      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       21:03    End of ISPF Log - - - - - Session # 35 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/26   Page: 1
+ 
+       07:19   Start of ISPF Log - - -  - Session # 36 -------------------------------------------------------
+       07:21      Edit - SUBMIT         - //CICS4ZXP
+       07:26      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       07:27      Utility - Rename      - Z45864.JCL(CARREC) renamed (CARRECJ).
+       07:28      Edit - SUBMIT         - //CARRECJ
+       07:51      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       07:51      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       07:53      TSO     - Command  -  - %BOTTOM
+       07:54      TSO     - Command  -  - %BOTTOM
+       08:08    End of ISPF Log - - - - - Session # 36 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/26   Page: 1
+ 
+       08:35   Start of ISPF Log - - -  - Session # 37 -------------------------------------------------------
+       08:39      Edit - Save           - Z45864.CICS.MAPS(MYMAP) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/26   Page: 1
+ 
+       12:10   Start of ISPF Log - - -  - Session # 37 -------------------------------------------------------
+       12:14      Edit - Save           - Z45864.CICS.MAPS(MYMAP) - member saved.
+       12:26      Edit - Save           - Z45864.CICS.MAPS(MYMAP) - member saved.
+       12:34      Utility - Delete      - 'Z45864.CICS.MAPS' deleted from volume ZXPC01
+       12:38      Utility - Allocate    - Z45864.CICS.MAPS allocated on volume ZXPC01
+       12:46      Edit - Save           - Z45864.CICS.MAPS(MYMAP) - member saved.
+       12:51      Edit - Save           - Z45864.CICS.MAPS(MYMAP) - member saved.
+       12:58      Edit - Save           - Z45864.CICS.MAPS(MYMAP) - member saved.
+       13:10      Utility - Move/Copy   - DFH620.CICS.SDFHPROC(DFHMAPS) copied
+       13:10                            - to Z45864.JCL(DFHMAPS)
+       13:15      Edit - Save           - Z45864.JCL(DFHMAPS) - member saved.
+       13:15      Utility - Delete      - Z45864.JCL(DFHMAPS) deleted.
+       13:18      Utility - Rename      - Z45864.CICS.MAPS(MYMAP) renamed (CARREC).
+       13:21      Utility - Move/Copy   - 'Z45864.JCL(CARRECJ)' Copied
+       13:21                            - to 'Z45864.JCL(CARRECM)'
+       13:21      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       13:29      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       13:43      Utility - Rename      - Z45864.JCL(CARRECJ) renamed (CARRECC).
+       13:44      Edit - Save           - Z45864.JCL(CARRECC) - member saved.
+       13:47      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       13:57      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       13:59      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       14:06      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       14:09      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       14:09      Edit - SUBMIT         - //CARRECM
+       14:13      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       14:13      Edit - SUBMIT         - //CARRECM
+       14:17      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       14:19      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       14:19      Edit - SUBMIT         - //CARRECM
+       14:21    End of ISPF Log - - - - - Session # 37 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/26   Page: 1
+ 
+       15:44   Start of ISPF Log - - -  - Session # 38 -------------------------------------------------------
+       15:49      Edit - Save           - Z45864.CICS.MAPS(CARREC) - member saved.
+       15:50      Edit - SUBMIT         - //CARRECM
+       15:54      Edit - Save           - Z45864.CICS.MAPS(CARREC) - member saved.
+       15:55      Edit - Save           - Z45864.CICS.MAPS(CARREC) - member saved.
+       15:55      Edit - SUBMIT         - //CARRECM
+       16:25      Utility - Rename      - Z45864.CICS.MAPS(CARREC) renamed (CARRECS).
+       16:25      Utility - Delete      - Z45864.CICS.PROD.DFHLOAD(CARREC) deleted.
+       16:26      Utility - Rename      - Z45864.JCL(CARRECM) renamed (CARRECS).
+       16:27      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       16:28      Utility - Rename      - Z45864.JCL(CARRECC) renamed (CARRECJ).
+       16:29      Edit - Save           - Z45864.JCL(CARRECJ) - member saved.
+       16:36      Edit - Save           - Z45864.JCL(CARRECJ) - member saved.
+       16:38      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       16:44      Edit - SUBMIT         - //CARRECS
+       16:46      Utility - Delete      - Z45864.SOURCE(CARREC) deleted.
+       17:00      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       17:02      Utility - Move/Copy   - Z45864.CBL(CARREC) copied
+       17:02                            - to Z45864.CBL(CARRECM)
+       17:02      Utility - Move/Copy   - Z45864.CBL(CARREC) copied
+       17:02                            - to Z45864.CBL(CARRECM)
+       17:06      Edit - Save           - Z45864.CBL(CARRECM) - member saved.
+       17:11      Edit - Save           - Z45864.CBL(CARRECM) - member saved.
+       17:11    End of ISPF Log - - - - - Session # 38 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/26   Page: 1
+ 
+       17:20   Start of ISPF Log - - -  - Session # 39 -------------------------------------------------------
+       17:22      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       17:24      Utility - Move/Copy   - Z45864.JCL(CARRECJ) copied
+       17:24                            - to Z45864.JCL(CARRECX)
+       17:24      Utility - Move/Copy   - Z45864.JCL(CARRECJ) copied
+       17:24                            - to Z45864.JCL(CARRECX)
+       17:24      Edit - SUBMIT         - //CARRECJ
+       17:25      Edit - Save           - Z45864.JCL(CARRECJ) - member saved.
+       17:26      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       17:26      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       17:29      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       17:31      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       17:33      Edit - SUBMIT         - //CARRECX
+       17:34      TSO     - Command  -  - %BOT
+       17:35      Edit - Save           - Z45864.CBL(CARRECM) - member saved.
+       17:36      Edit - SUBMIT         - //CARRECX
+       17:48      TSO     - Command  -  - REPLACE   'Z45864.JCL(HELLOCIC)'
+       17:49      Edit - Save           - Z45864.JCL(HELLOCIC) - member saved.
+       18:50      Edit - Save           - Z45864.CBL(CARRECM) - member saved.
+       18:50      Edit - SUBMIT         - //CARRECX
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/26   Page: 1
+ 
+       19:19   Start of ISPF Log - - -  - Session # 39 -------------------------------------------------------
+       19:21      Edit - SUBMIT         -
+       19:38    End of ISPF Log - - - - - Session # 39 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/27   Page: 1
+ 
+       07:21   Start of ISPF Log - - -  - Session # 40 -------------------------------------------------------
+       07:23      Edit - Save           - Z45864.CICS.MAPS(CARRECS) - member saved.
+       07:24      Edit - SUBMIT         - //CARRECS
+       07:24      Edit - SUBMIT         - //CICS4ZXP
+       08:26      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       08:27    End of ISPF Log - - - - - Session # 40 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/27   Page: 1
+ 
+       08:40   Start of ISPF Log - - -  - Session # 41 -------------------------------------------------------
+       08:51      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       09:01      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       09:03      Edit - Save           - Z45864.JCL(AIDKEYJ) - member saved.
+       09:03      Utility - Delete      - Z45864.JCL(AIDKEYJ) deleted.
+       09:04      Utility - Move/Copy   - Z45864.JCL(CARRECX) copied
+       09:04                            - to Z45864.JCL(AIDKEYJ)
+       09:04      Utility - Move/Copy   - Z45864.JCL(CARRECX) copied
+       09:04                            - to Z45864.JCL(AIDKEYJ)
+       09:09      Edit - Save           - Z45864.JCL(AIDKEYJ) - member saved.
+       09:09      Edit - SUBMIT         - //AIDKEYJ
+       09:13      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       09:13      Edit - SUBMIT         -
+       09:13      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       09:14      Edit - SUBMIT         - //AIDKEYJ
+       09:51      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       09:52      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       09:59      Edit - SUBMIT         - //AIDKEYJ
+       10:02      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       10:03      TSO     - Command  -  - SUB       'Z45864.JCL(AIDKEYJ)'
+       10:07    End of ISPF Log - - - - - Session # 41 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/27   Page: 1
+ 
+       11:07   Start of ISPF Log - - -  - Session # 42 -------------------------------------------------------
+       11:21      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       11:22      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/27   Page: 1
+ 
+       11:46   Start of ISPF Log - - -  - Session # 42 -------------------------------------------------------
+       12:09      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       12:11      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       12:11      TSO     - Command  -  - SUB       'Z45864.JCL(AIDKEYJ)'
+       12:32      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       12:33      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       12:33      TSO     - Command  -  - SUB       'Z45864.JCL(AIDKEYJ)'
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/27   Page: 1
+ 
+       20:58   Start of ISPF Log - - -  - Session # 42 -------------------------------------------------------
+       20:59      Utility - Move/Copy   - Z45864.JCL(CARRECS) copied
+       20:59                            - to Z45864.JCL(EIBMAPS)
+       20:59      Utility - Move/Copy   - Z45864.JCL(CARRECS) copied
+       20:59                            - to Z45864.JCL(EIBMAPS)
+       21:06      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       21:09      Edit - SUBMIT         - //EIBMAPS
+       21:15      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       21:15      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       21:19      Edit - SUBMIT         - //EIBMAPS
+       21:19      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       21:20      Edit - SUBMIT         - //CARRECS
+       21:21      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       21:26    End of ISPF Log - - - - - Session # 42 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/28   Page: 1
+ 
+       07:49   Start of ISPF Log - - -  - Session # 43 -------------------------------------------------------
+       08:27      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       08:36      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       09:05      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       09:06      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       09:12      Utility - Move/Copy   - Z45864.JCL(AIDKEYJ) copied
+       09:12                            - to Z45864.JCL(EIBDISPJ)
+       09:12      Utility - Move/Copy   - Z45864.JCL(AIDKEYJ) copied
+       09:12                            - to Z45864.JCL(EIBDISPJ)
+       09:17      Edit - Save           - Z45864.JCL(EIBDISPJ) - member saved.
+       09:19      Edit - Save           - Z45864.JCL(AIDKEYJ) - member saved.
+       09:20      Edit - Save           - Z45864.JCL(CARRECJ) - member saved.
+       09:21      Edit - Save           - Z45864.JCL(CARRECJ) - member saved.
+       09:23      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       09:25      Edit - Save           - Z45864.JCL(EIBDISPJ) - member saved.
+       09:27      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       09:28      Edit - Save           - Z45864.JCL(HELLOCIC) - member saved.
+       09:29      Utility - Rename      - Z45864.JCL(HELLOCIC) renamed (HELLOCIJ).
+       09:30      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       09:31      Edit - SUBMIT         - //EIBDISPJ
+       09:37      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       09:37      Edit - SUBMIT         - //CARRECX
+       09:38      Edit - Save           - Z45864.JCL(EIBDISPJ) - member saved.
+       09:38      Edit - SUBMIT         - //EIBDISPJ
+       09:44      TSO     - Command  -  - SUB       'Z45864.JCL(MYCICS)'
+       10:13      Utility - Rename      - Z45864.JCL(AIDKEYJ) renamed (AIDKEY).
+       10:14      Utility - Rename      - Z45864.JCL(CARRECJ) renamed (CARREC).
+       10:14      Edit - Save           - Z45864.JCL(CARRECX) - member saved.
+       10:14      Utility - Rename      - Z45864.JCL(CARRECX) renamed (CARRECM).
+       10:14      Utility - Rename      - Z45864.JCL(EIBDISPJ) renamed (EIBDISP).
+       10:15      Utility - Rename      - Z45864.JCL(HELLOCIJ) renamed (HELLOCIC).
+       10:36      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       10:56      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       10:57      Edit - SUBMIT         - //EIBDISPJ
+       11:05      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       11:19      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/28   Page: 1
+ 
+       12:25   Start of ISPF Log - - -  - Session # 43 -------------------------------------------------------
+       12:30      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       12:31      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       12:38      Edit - SUBMIT         - //EIBDISPJ
+       13:10      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       13:11      TSO     - Command  -  - SUBMIT 'Z45864.JCL(EIBDISP)'
+       13:14      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       13:14      TSO     - Command  -  - SUBMIT 'Z45864.JCL(EIBDISP)'
+       13:22    End of ISPF Log - - - - - Session # 43 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/28   Page: 1
+ 
+       14:09   Start of ISPF Log - - -  - Session # 44 -------------------------------------------------------
+       14:38      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       14:41      TSO     - Command  -  - submit 'z45864.jcl(eibdisp)'
+       14:47      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       14:47      TSO     - Command  -  - submit 'z45864.jcl(eibdisp)'
+       14:47    End of ISPF Log - - - - - Session # 44 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/28   Page: 1
+ 
+       15:17   Start of ISPF Log - - -  - Session # 45 -------------------------------------------------------
+       15:30      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       15:38      TSO     - Command  -  - %CENCEL
+       15:45      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       15:46      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       15:50      Edit - SUBMIT         - //EIBDISPJ
+       15:51      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       15:52      TSO     - Command  -  - SUB       'Z45864.JCL(EIBDISP)'
+       15:55      TSO     - Command  -  - %DATE
+       15:55      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       15:56      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       15:57      TSO     - Command  -  - sub 'z45864.jcl(eibdisp)'
+       16:19      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/28   Page: 1
+ 
+       20:28   Start of ISPF Log - - -  - Session # 45 -------------------------------------------------------
+       20:36      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       20:37      TSO     - Command  -  - SUB JCL(EIBDISP)
+       20:40      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       20:40      TSO     - Command  -  - SUB JCL(EIBDISP)
+       20:46      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       20:47    End of ISPF Log - - - - - Session # 45 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/29   Page: 1
+ 
+       19:49   Start of ISPF Log - - -  - Session # 46 -------------------------------------------------------
+       20:12      Utility - Delete      - 'Z45864.HOOLI.AHOOLBIN.#' deleted from volume ZXPL01
+       20:12      Utility - Delete      - 'Z45864.HOOLI.AHOOLMOD.#' deleted from volume ZXPM03
+       20:12      Edit - Save           - SYS25088.T201217.RA000.Z45864.R0110327 -  saved.
+       20:12      VSAM Utility - Delete - An IDCAMS delete command has completed with an RC=0.
+       20:12      Utility - Delete      - 'Z45864.HOOLI.SHOOLMOD.#' deleted from volume ZXPM07
+       20:12      Utility - Delete      - 'Z45864.HOOLI.SMPLOG.#' deleted from volume ZXPM07
+       20:12      Utility - Delete      - 'Z45864.HOOLI.SMPPTS.#' deleted from volume ZXPL01
+       20:12      Utility - Delete      - 'Z45864.HOOLI.SMPSCDS.#' deleted from volume ZXPM07
+       20:12      Utility - Delete      - 'Z45864.HOOLI.WORKFLOW.#' deleted from volume ZXPM07
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/30   Page: 1
+ 
+       11:58   Start of ISPF Log - - -  - Session # 46 -------------------------------------------------------
+       12:04      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/30   Page: 1
+ 
+       12:24   Start of ISPF Log - - -  - Session # 46 -------------------------------------------------------
+       12:27      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       12:27      TSO     - Command  -  - SUB 'JCL(EIBDISP)'
+       12:28      TSO     - Command  -  - SUB JCL(EIBDISP)
+       12:44      TSO     - Command  -  - SUB       'Z45864.JCL(MYCICS)'
+       13:22    End of ISPF Log - - - - - Session # 46 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/30   Page: 1
+ 
+       13:41   Start of ISPF Log - - -  - Session # 47 -------------------------------------------------------
+       13:41      TSO     - Command  -  - CREATE CICS.MAPS(AAA)
+       13:45      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       13:55      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       13:57      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       14:02      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       14:33      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       14:36      Edit - Save           - Z45864.JCL(EMPLOY) - member saved.
+       14:38      Utility - Delete      - Z45864.JCL(EMPLOY) deleted.
+       14:42      Edit - Save           - Z45864.JCL(ESONMAP) - member saved.
+       14:43      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       14:43      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       14:47      Edit - SUBMIT         - //ESONMAPJ
+       14:48      Edit - Save           - Z45864.JCL(ESONMAP) - member saved.
+       14:51      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       14:52      Edit - SUBMIT         - //ESONMAPJ
+       14:56      Edit - Save           - Z45864.CICS.MAPS(ESONMAP) - member saved.
+       14:56      TSO     - Command  -  - SUB JCL(ESONMAP)
+       15:00      TSO     - Command  -  - %REA
+       15:08      Utility - Delete      - Z45864.CICS.PROD.DFHLOAD(ESONMAP) deleted.
+       15:09      Edit - Save           - Z45864.JCL(ESONMAP) - member saved.
+       15:09      Edit - SUBMIT         - //ESONMAPJ
+       15:10      Utility - Delete      - Z45864.SOURCE(ESONMAP) deleted.
+       15:10      Utility - Delete      - Z45864.SOURCE(ESONMAPS) deleted.
+       15:10      Utility - Delete      - Z45864.CICS.PROD.DFHLOAD(ESONMAPS) deleted.
+       15:12      Edit - Save           - Z45864.JCL(ESONMAP) - member saved.
+       15:13      Edit - SUBMIT         - //ESONMAPJ
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/30   Page: 1
+ 
+       16:26   Start of ISPF Log - - -  - Session # 47 -------------------------------------------------------
+       16:49      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       16:51      Edit - Save           - Z45864.JCL(ESONP) - member saved.
+       16:55      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       16:57      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       16:58      Edit - Save           - Z45864.JCL(ESONP) - member saved.
+       16:58      Edit - SUBMIT         - //ESONPJ
+       17:14      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:15      TSO     - Command  -  - SUB JCL(ESONP)
+       17:15      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:15      TSO     - Command  -  - SUB JCL(ESONP)
+       17:17      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:21      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:30      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:31      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:31      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:32      Edit - SUBMIT         - //ESONPJ
+       17:42    End of ISPF Log - - - - - Session # 47 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/30   Page: 1
+ 
+       17:46   Start of ISPF Log - - -  - Session # 48 -------------------------------------------------------
+       17:49      TSO     - Command  -  - SUB JCL(MYCICS)
+       18:13      TSO     - Command  -  - SUB JCL(ESONMAP)
+       18:14      TSO     - Command  -  - SUB JCL(ESONP)
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/30   Page: 1
+ 
+       18:41   Start of ISPF Log - - -  - Session # 48 -------------------------------------------------------
+       18:42      Utility - Rename      - Z45864.CICS.MAPS(EIBMAPS2) renamed (AAA).
+       18:42      Edit - Save           - Z45864.CICS.MAPS(AAA) - member saved.
+       18:45      TSO     - Command  -  - SUB JCL(ESONMAP)
+       18:53      TSO     - Command  -  - SUB JCL(ESONMAP)
+       18:58      TSO     - Command  -  - SUB JCL(ESONMAP)
+       19:00      Utility - Delete      - Z45864.CICS.PROD.DFHLOAD(ESONMAPS) deleted.
+       19:00      Utility - Delete      - Z45864.CICS.PROD.DFHLOAD(ESONP) deleted.
+       19:30      TSO     - Command  -  - SUB JCL(ESONMAP)
+       19:38      Edit - Save           - Z45864.JCL(ESONMAP) - member saved.
+       19:38      Utility - Delete      - Z45864.CICS.PROD.DFHLOAD(ESONMAPS) deleted.
+       19:39      TSO     - Command  -  - SUB JCL(ESONMAP)
+       19:41      Utility - Delete      - Z45864.SOURCE(ESONMAPS) deleted.
+       19:42      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       19:42      TSO     - Command  -  - SUB JCL(ESONP)
+       20:11    End of ISPF Log - - - - - Session # 48 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/31   Page: 1
+ 
+       07:39   Start of ISPF Log - - -  - Session # 49 -------------------------------------------------------
+       07:39      TSO     - Command  -  - SUB JCL(MYCICS)
+       09:07      Utility - Move/Copy   - Z45864.SOURCE -- 16 member(s) copied
+       09:07                            - to Z45864.COPYLIB
+       09:07      Utility - Delete      - Z45864.COPYLIB(ANSIBLED) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(ASMPGM) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(ASM2PGM) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(GUESSNUM) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(PDSPART1) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(PDSPART2) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(RECIPE) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(ROCKS1) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(ROCKS2) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(ROCKS3) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(SAMPLSQL) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(SOMEREXX) deleted.
+       09:07      Utility - Delete      - Z45864.COPYLIB(XXX) deleted.
+       09:08      Edit - Save           - Z45864.COPYLIB(ESONMAP) - member saved.
+       09:08      Edit - Save           - Z45864.COPYLIB(CARRECS) - member saved.
+       09:08      Edit - Save           - Z45864.COPYLIB(EIBMAPS) - member saved.
+       09:08      Utility - Delete      - Z45864.SOURCE(CARRECS) deleted.
+       09:08      Utility - Delete      - Z45864.SOURCE(EIBMAPS) deleted.
+       09:08      Utility - Delete      - Z45864.SOURCE(ESONMAP) deleted.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/31   Page: 1
+ 
+       09:21   Start of ISPF Log - - -  - Session # 49 -------------------------------------------------------
+       09:22      Utility - Rename      - Old name: 'Z45864.CICS.MAPS'
+       09:22                            - New name: 'Z45864.MAPS'
+       09:24      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       09:26      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       09:27      Edit - Save           - Z45864.JCL(EIBDISP) - member saved.
+       09:28      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       09:29      Edit - Save           - Z45864.JCL(ESONMAP) - member saved.
+       09:29      Edit - Save           - Z45864.JCL(ESONP) - member saved.
+       09:31      Edit - SUBMIT         - //AIDKEYJ
+       09:31      Edit - SUBMIT         - //CARRECJ
+       09:31      Edit - SUBMIT         - //CARRECS
+       09:32      Edit - SUBMIT         - //CARRECM
+       09:33      Edit - SUBMIT         - //EIBMAPS
+       09:33      Edit - SUBMIT         - //EIBDISPJ
+       09:34      Edit - SUBMIT         - //ESONMAPJ
+       09:34      Edit - SUBMIT         - //ESONPJ
+       10:58      Edit - Save           - Z45864.CBL(AIDKEY) - member saved.
+       10:58      Edit - SUBMIT         - //HELLOCIJ
+       11:01      TSO     - Command  -  - SUB JCL(AIDKEY)
+       11:03      TSO     - Command  -  - %PROCED
+       11:08      Edit - Save           - Z45864.CBL(EIBDISP) - member saved.
+       11:08      TSO     - Command  -  - SUB JCL(EIBDISP)
+       12:24    End of ISPF Log - - - - - Session # 49 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/31   Page: 1
+ 
+       18:17   Start of ISPF Log - - -  - Session # 50 -------------------------------------------------------
+       18:26      TSO     - Command  -  - SUB JCL(ESONP)
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/31   Page: 1
+ 
+       18:43   Start of ISPF Log - - -  - Session # 50 -------------------------------------------------------
+       18:44      TSO     - Command  -  - SUB JCL(ESONP)
+       18:59    End of ISPF Log - - - - - Session # 50 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/03/31   Page: 1
+ 
+       19:11   Start of ISPF Log - - -  - Session # 51 -------------------------------------------------------
+       19:12      TSO     - Command  -  - SUB JCL(ESONP)
+       19:18      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       19:19      TSO     - Command  -  - SUB JCL(ESONP)
+       19:19      TSO     - Command  -  - DISPLAY
+       19:19      TSO     - Command  -  - ISHELL
+       19:19      TSO     - Command  -  - ISHELL
+       19:30      TSO     - Command  -  - SUB JCL(ESONP)
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/01   Page: 1
+ 
+       08:36   Start of ISPF Log - - -  - Session # 51 -------------------------------------------------------
+       08:39      Edit - Save           - Z45864.CBL(CARREC) - member saved.
+       09:24      Edit - SUBMIT         - //ESONMAPJ
+       09:24      Edit - SUBMIT         - //ESONPJ
+       09:25      TSO     - Command  -  - SUB JCL(MYCICS)
+       09:38      TSO     - Command  -  - SUB JCL(MYCICS)
+       09:42    End of ISPF Log - - - - - Session # 51 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/01   Page: 1
+ 
+       09:55   Start of ISPF Log - - -  - Session # 52 -------------------------------------------------------
+       09:56      TSO     - Command  -  - SUB JCL(MYCICS)
+       09:58      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       09:58      TSO     - Command  -  - SUB JCL(ESONP)
+       10:23      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       10:24      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       10:24      TSO     - Command  -  - %REUTRN
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/01   Page: 1
+ 
+       14:03   Start of ISPF Log - - -  - Session # 52 -------------------------------------------------------
+       14:10      Utility - Move/Copy   - ZOS.PUBLIC.CBL -- 22 member(s) copied
+       14:10                            - to Z45864.CBL
+       15:04      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       15:05      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       15:08      TSO     - Command  -  - SUB JCL(ESONP)
+       15:25    End of ISPF Log - - - - - Session # 52 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/01   Page: 1
+ 
+       16:06   Start of ISPF Log - - -  - Session # 53 -------------------------------------------------------
+       16:06      TSO     - Command  -  - SUB JCL(MYCICS)
+       16:09      TSO     - Command  -  - SUB JCL(ESONP)
+       16:23    End of ISPF Log - - - - - Session # 53 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/01   Page: 1
+ 
+       19:06   Start of ISPF Log - - -  - Session # 54 -------------------------------------------------------
+       19:06      TSO     - Command  -  - SUB JCL(ESONP)
+       19:12      TSO     - Command  -  - SUB JCL(ESONP)
+       19:26      TSO     - Command  -  - SUB JCL(ESONP)
+       20:04    End of ISPF Log - - - - - Session # 54 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/02   Page: 1
+ 
+       09:29   Start of ISPF Log - - -  - Session # 55 -------------------------------------------------------
+       09:32      Utility - Allocate    - Z45864.DATA.EREGUSR allocated on volume ZXPL01
+       09:34      TSO     - Command  -  - %RIGHT100
+       09:34      TSO     - Command  -  - %SEQ
+       09:34      TSO     - Command  -  - %E
+       09:35      TSO     - Command  -  - %E
+       09:35      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/02   Page: 1
+ 
+       10:05   Start of ISPF Log - - -  - Session # 55 -------------------------------------------------------
+       10:05      Edit - Recovery       - Of Z45864.DATA.EREGUSR completed from Z45864.ISR9307.BACKUP
+       10:07      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       10:07      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       10:10      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       10:16      Utility - Move/Copy   - Z45864.JCL(DEFVSAM) copied
+       10:16                            - to Z45864.JCL(PSVSAM1)
+       10:16      Utility - Move/Copy   - Z45864.JCL(DEFVSAM) copied
+       10:16                            - to Z45864.JCL(PSVSAM1)
+       10:36      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       10:37      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       10:43      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       10:52      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       10:56      TSO     - Command  -  - %S
+       10:56      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       10:58      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       10:58      Edit - SUBMIT         - //PSVSAM1
+       11:05      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       11:05      Edit - SUBMIT         - //PSVSAM1
+       11:08      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       11:08      Edit - SUBMIT         - //PSVSAM1
+       11:10      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       11:10      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       11:10      Edit - SUBMIT         - //PSVSAM1
+       11:18      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:21      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:21      Edit - SUBMIT         - //IDCAMSJ
+       11:21      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:22      TSO     - Command  -  - SUB JCL(IDCAMS)
+       11:23      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:23      Edit - SUBMIT         - //IDCAMSJ
+       11:24      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:27      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       11:27      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:27      Edit - SUBMIT         - //IDCAMSJ
+       11:29      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:30      Edit - SUBMIT         - //IDCAMSJ
+       11:31      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:33      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:33      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:33      Edit - SUBMIT         - //IDCAMSJ
+       11:35      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:35      Edit - SUBMIT         - //IDCAMSJ
+       11:35      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:36      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:36      Edit - SUBMIT         - //IDCAMSJ
+       11:38      Utility - Rename      - Z45864.JCL(PSVSAM1) renamed (VSAMPS1).
+       11:41      Utility - Rename      - Z45864.JCL(VSAMPS1) renamed (PSVSAM1).
+       11:43      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:43      Edit - SUBMIT         - //IDCAMSJ
+       11:45      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       11:45      Edit - SUBMIT         - //IDCAMSJ
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/02   Page: 1
+ 
+       12:25   Start of ISPF Log - - -  - Session # 55 -------------------------------------------------------
+       12:25      TSO     - Command  -  - SUB JCL(MYCICS)
+       12:37      Edit - Save           - Z45864.JCL(PSVSAM1) - member saved.
+       12:37      Utility - Rename      - Z45864.JCL(PSVSAM1) renamed (EREGUSR).
+       12:37      Edit - SUBMIT         - //EREGUSRJ
+       12:41      Edit - SUBMIT         - //EREGUSRJ
+       12:49    End of ISPF Log - - - - - Session # 55 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/02   Page: 1
+ 
+       14:23   Start of ISPF Log - - -  - Session # 56 -------------------------------------------------------
+       14:31      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       14:33      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       14:34      Edit - SUBMIT         - //EREGUSRJ
+       14:42    End of ISPF Log - - - - - Session # 56 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/02   Page: 1
+ 
+       18:53   Start of ISPF Log - - -  - Session # 57 -------------------------------------------------------
+       19:47      Edit - SUBMIT         - //ESONPJ
+       20:57      TSO     - Command  -  - SUB JCL(ESONP)
+       21:22    End of ISPF Log - - - - - Session # 57 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/03   Page: 1
+ 
+       16:55   Start of ISPF Log - - -  - Session # 58 -------------------------------------------------------
+       17:02      TSO     - Command  -  - SUB JCL(ESONP)
+       17:03      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:03      TSO     - Command  -  - SUB JCL(MYCICS)
+       17:04      Edit - Save           - Z45864.CBL(ESONP) - member saved.
+       17:04      TSO     - Command  -  - SUB JCL(ESONP)
+       17:36      Edit - Save           - Z45864.COPYLIB(ESONP) - member saved.
+       17:36      TSO     - Command  -  - SUB JCL(ESONP)
+       17:38      Edit - Save           - Z45864.COPYLIB(ESONP) - member saved.
+       17:38      TSO     - Command  -  - SUB JCL(ESONP)
+       17:41      Edit - Save           - Z45864.COPYLIB(ESONP) - member saved.
+       17:42      Edit - Save           - Z45864.COPYLIB(ESONP) - member saved.
+       17:42      TSO     - Command  -  - SUB JCL(ESONP)
+       18:46      TSO     - Command  -  - SUB JCL(ESONP)
+       18:50    End of ISPF Log - - - - - Session # 58 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/04   Page: 1
+ 
+       08:11   Start of ISPF Log - - -  - Session # 59 -------------------------------------------------------
+       08:34      TSO     - Command  -  - SUB JCL(ESONP)
+       08:34      TSO     - Command  -  - SUB JCL(MYCICS)
+       08:41      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       08:41      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       08:41      Edit - Save           - Z45864.DATA.EREGUSR - data set saved.
+       08:43      Edit - SUBMIT         - //EREGUSRJ
+       08:44      Edit - Save           - Z45864.JCL(AIDKEY) - member saved.
+       08:44      Edit - Save           - Z45864.JCL(CARREC) - member saved.
+       08:44      TSO     - Command  -  - SUB       'Z45864.JCL(AIDKEY)'
+       08:44      TSO     - Command  -  - SUB       'Z45864.JCL(CARREC)'
+       08:45      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       08:45      TSO     - Command  -  - SUB       'Z45864.JCL(CARRECM)'
+       08:45      TSO     - Command  -  - D2        'Z45864.JCL(CBLCOV19)'
+       08:46      Utility - Delete      - Z45864.JCL(CBLCOV19) deleted.
+       08:46      Utility - Delete      - Z45864.JCL(CBLCOV20) deleted.
+       08:46      Edit - Save           - Z45864.JCL(EIBDISP) - member saved.
+       08:47      Edit - Save           - Z45864.JCL(HELLOCIC) - member saved.
+       08:49      Edit - SUBMIT         - //AIDKEYJ
+       08:51      Edit - SUBMIT         - //CARRECJ
+       08:52      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       08:52      Edit - SUBMIT         - //CARRECM
+       08:52      Edit - SUBMIT         - //CARRECS
+       08:53      Edit - SUBMIT         - //EIBDISPJ
+       08:54      Edit - SUBMIT         - //EIBMAPS
+       08:55      Edit - Save           - Z45864.JCL(EREGUSR) - member saved.
+       08:56      Edit - SUBMIT         - //EREGUSRJ
+       08:57      Edit - SUBMIT         - //ESONMAPJ
+       08:58      Edit - Save           - Z45864.JCL(ESONP) - member saved.
+       08:58      Edit - SUBMIT         - //ESONPJ
+       08:58      Edit - SUBMIT         - //HELLOCIJ
+       08:59      Utility - Delete      - Z45864.JCL(NUMBERS) deleted.
+       08:59      Utility - Delete      - Z45864.JCL(EMPPAY) deleted.
+       08:59      Utility - Delete      - Z45864.JCL(DEPTPAY) deleted.
+       09:00      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       09:01      Edit - Save           - Z45864.JCL(CARRECM) - member saved.
+       09:01      Edit - Save           - Z45864.JCL(CARRECS) - member saved.
+       09:02      Edit - Save           - Z45864.JCL(EIBMAPS) - member saved.
+       09:03      TSO     - Command  -  - SUB       'Z45864.JCL(AIDKEY)'
+       09:03      TSO     - Command  -  - SUB       'Z45864.JCL(CARREC)'
+       09:03      TSO     - Command  -  - SUB       'Z45864.JCL(CARRECM)'
+       09:03      TSO     - Command  -  - SUB       'Z45864.JCL(CARRECS)'
+       09:04      TSO     - Command  -  - SUB       'Z45864.JCL(EIBDISP)'
+       09:04      TSO     - Command  -  - SUB       'Z45864.JCL(EIBMAPS)'
+       09:04      TSO     - Command  -  - SUB       'Z45864.JCL(EREGUSR)'
+       09:04      TSO     - Command  -  - SUB       'Z45864.JCL(ESONMAP)'
+       09:04      TSO     - Command  -  - SUB       'Z45864.JCL(ESONP)'
+       09:04      TSO     - Command  -  - SUB       'Z45864.JCL(HELLOCIC)'
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/04   Page: 1
+ 
+       10:17   Start of ISPF Log - - -  - Session # 59 -------------------------------------------------------
+       10:18      Edit - Save           - Z45864.JCL(EREGUSR) - member saved.
+       10:59      Utility - Allocate    - Z45864.DATA.ESONRUL allocated on volume ZXPL01
+       11:03      Edit - Save           - Z45864.DATA.ESONRUL - data set saved.
+       11:04      Edit - Save           - Z45864.DATA.ESONRUL - data set saved.
+       11:20      Edit - Recovery       - Of Z45864.DATA.EREGUSR completed from Z45864.ISR0203.BACKUP
+       11:20      TSO     - Command  -  - %REDO
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/04   Page: 1
+ 
+       12:22   Start of ISPF Log - - -  - Session # 59 -------------------------------------------------------
+       12:23      Edit - Save           - Z45864.JCL(ESONRUL) - member saved.
+       12:24      Edit - Save           - Z45864.JCL(ESONRUL) - member saved.
+       12:25      Edit - SUBMIT         - //ESONRULJ
+       12:26      Edit - Save           - Z45864.JCL(ESONRUL) - member saved.
+       12:26      TSO     - Command  -  - %AUB
+       12:26      Edit - SUBMIT         - //ESONRULJ
+       12:28      Edit - Save           - Z45864.JCL(ESONRUL) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/04   Page: 1
+ 
+       14:04   Start of ISPF Log - - -  - Session # 59 -------------------------------------------------------
+       14:43      Edit - Save           - Z45864.COPYLIB(ESONRUL) - member saved.
+       14:44      Edit - Save           - Z45864.COPYLIB(EREGUSR) - member saved.
+       14:45      Edit - Save           - Z45864.COPYLIB(ESONP) - member saved.
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/04   Page: 1
+ 
+       18:00   Start of ISPF Log - - -  - Session # 59 -------------------------------------------------------
+       18:02      TSO     - Command  -  - SUB JCL(ESONP)
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/06   Page: 1
+ 
+       09:01   Start of ISPF Log - - -  - Session # 59 -------------------------------------------------------
+       09:07      Edit - Save           - Z45864.JCL(EACTMON) - member saved.
+       09:07      Edit - SUBMIT         - //EACTMONJ
+       09:09    End of ISPF Log - - - - - Session # 59 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/07   Page: 1
+ 
+       09:41   Start of ISPF Log - - -  - Session # 60 -------------------------------------------------------
+       10:09      TSO     - Command  -  - TOP     'Z45864.OUTPUT.PS'
+       10:10      Utility - Rename      - Old name: 'Z45864.OUTPUT.PS'
+       10:10                            - New name: 'Z45864.COMPLETE'
+       12:27      TSO     - Command  -  - %DSNESC01 FUNC(SPUFI)
+       12:28      TSO     - Command  -  - %ISREDRTI ISPPROF
+       12:28      TSO     - Command  -  - %DSNEOC01
+       12:29    End of ISPF Log - - - - - Session # 60 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/07   Page: 1
+ 
+       15:40   Start of ISPF Log - - -  - Session # 61 -------------------------------------------------------
+       16:14      TSO     - Command  -  - SYSLIB
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/07   Page: 1
+ 
+       20:04   Start of ISPF Log - - -  - Session # 61 -------------------------------------------------------
+       20:56      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       20:56      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       20:59      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       21:02      Edit - Save           - Z45864.JCL(IDCAMS) - member saved.
+       21:08    End of ISPF Log - - - - - Session # 61 -------------------------------------------------------
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/09   Page: 1
+ 
+       11:12   Start of ISPF Log - - -  - Session # 62 -------------------------------------------------------
+       11:12      TSO     - Command  -  - ISHELL
+       11:12      TSO     - Command  -  - ISHELL
+       11:27      TSO     - Command  -  - ISHELL
+       11:27      TSO     - Command  -  - ISHELL
+1      Time                *** ISPF transaction log ***                        Userid: Z45864    Date: 25/04/09   Page: 1
+ 
+       15:39   Start of ISPF Log - - -  - Session # 62 -------------------------------------------------------
+       15:42      Edit - SUBMIT         - //DB2SETUP
+       15:47      Utility - Delete      - Z45864.JCL(CRETBL) deleted.
+       15:47      Utility - Delete      - Z45864.JCL(SELTBL) deleted.
+       15:47      Utility - Delete      - Z45864.JCL(LOADTBL) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB21C) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB21J) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB21R) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB22C) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB22R) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB23C) deleted.
+       15:48      Utility - Delete      - Z45864.JCL(CBLDB23R) deleted.
+       15:49      Utility - Delete      - Z45864.CBL(CBLDB21) deleted.
+       15:49      Utility - Delete      - Z45864.CBL(CBLDB22) deleted.
+       15:49      Utility - Delete      - Z45864.CBL(CBLDB23) deleted.
+       15:52      Utility - Delete      - Z45864.CBL($README) deleted.
+       15:52      Utility - Delete      - Z45864.JCL($README) deleted.
+       15:53      Edit - SUBMIT         - //DB2SETUP
+       16:05      Edit - SUBMIT         - //CREATE1
+       16:10      Edit - SUBMIT         - //LOADTBL
+       16:12      Edit - SUBMIT         - //SELTBL
+       17:38    End of ISPF Log - - - - - Session # 62 -------------------------------------------------------

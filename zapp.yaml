@@ -1,7 +1,7 @@
-name: IBM Z Workspace ZAPP document
+name: IBM Z & Zowe Explorer Property Groups
 description: >-
   https://ibm.github.io/zopeneditor-about/Docs/setting_propertygroup.html
-author: IBM Z Open Editor & JE
+author: IBM Z Open Editor
 propertyGroups:
   - name: cobol-copybooks
     language: cobol
